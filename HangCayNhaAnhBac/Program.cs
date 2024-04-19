@@ -13,7 +13,7 @@ namespace HangCayNhaAnhBac
     {
         static readonly int Maxsize = 100;
 
-        static string treeline = "gjkgjgvvyjl"; //aabcdabc
+        static string treeline = "affabbcfdabc"; //aabcdabc
 
         static void Main(string[] args)
         {
@@ -60,10 +60,11 @@ namespace HangCayNhaAnhBac
 
                     char tree = FindDuplicateTrees(listcate);
 
-                    if(tree != (char)default)
+                    while(tree != (char)default)
                     {
                         Console.WriteLine($"tree {tree} bi trung !");
-                        listcate = RemoveTree(min, listcate);
+
+                        listcate = RemoveTree(tree, listcate);
 
                         Console.WriteLine($"hang cay sau khi xoa {tree}");
                         foreach (char output in listcate)
@@ -71,7 +72,7 @@ namespace HangCayNhaAnhBac
                             Console.Write($"{output}");
                         }
                         Console.WriteLine();
-
+                        tree = FindDuplicateTrees(listcate);
                     }
 
                     Console.WriteLine();
@@ -85,11 +86,18 @@ namespace HangCayNhaAnhBac
 
 
                 Console.WriteLine();
-
-                foreach (char output in listcate)
+                if (Catesize(listcate).Count < 2)
                 {
-                    Console.Write($"{output}");
+                    Console.Write($"ket luan: khong co cay de cat duoc hang cay xem ke nhau");
                 }
+                else
+                {
+                    foreach (char output in listcate)
+                    {
+                        Console.Write($"{output}");
+                    }
+                }
+
             }
 
             Console.ReadKey();
