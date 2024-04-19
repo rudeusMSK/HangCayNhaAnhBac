@@ -15,3 +15,7 @@ output: 3
 Ví dụ 3 
 input: s = "affcacbbc" Không có cách cắt cây nào để còn lại hàng cây xem kẽ gồm 2 loại cây. 
 output: 0
+
+___
+chạy thử: </br>
+![image](https://github.com/rudeusMSK/HangCayNhaAnhBac/assets/160387470/145af2c1-d9fe-4085-b954-b1ba3fa3779f)
