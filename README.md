@@ -1,3 +1,4 @@
+<h1>ĐỀ BÀI: </h1>
 Nhà anh Bắc có một hàng cây trước nhà gồm có n cây thuộc m loại cây khác nhau (n ≥ m). 
 Anh Bắc muốn cắt bỏ (m-2) loại cây sao cho các cây còn lại thuộc 2 loại và chúng phải xem kẽ nhau (2 cây gần nhau không được cùng loại).
 Hãy giúp anh Bắc tìm cách tỉa bớt cây thoả mãn yêu cầu trên và số cây còn lại là nhiều nhất.
