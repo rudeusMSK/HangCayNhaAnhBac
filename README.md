@@ -17,5 +17,11 @@ input: s = "affcacbbc" Không có cách cắt cây nào để còn lại hàng c
 output: 0
 
 ___
+cần cải thiện: </br>
+chưa tìm được cách lấy được nhiều cây nhất ! </br>
+chưa tối ưu được code ! </br>
+code chưa clean code! </br>
+giải thuật chưa được tốt ! </br>
+___
 chạy thử: </br>
 ![image](https://github.com/rudeusMSK/HangCayNhaAnhBac/assets/160387470/145af2c1-d9fe-4085-b954-b1ba3fa3779f)
