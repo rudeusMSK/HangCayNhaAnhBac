@@ -16,7 +16,9 @@ output: 3 </br>
 Ví dụ 3 </br>
 input: s = "affcacbbc" Không có cách cắt cây nào để còn lại hàng cây xem kẽ gồm 2 loại cây. </br>
 output: 0 </br>
+
 ___
+
 cần cải thiện: </br>
 chưa tìm được cách lấy được nhiều cây nhất ! </br>
 chưa tối ưu được code ! </br>
@@ -24,6 +26,7 @@ code chưa clean code! </br>
 giải thuật chưa được tốt ! </br>
 chưa đúng  output đề bài yêu cầu ! </br>
 ___
+
 chạy thử: </br>
 
 ![image](https://github.com/rudeusMSK/HangCayNhaAnhBac/assets/160387470/145af2c1-d9fe-4085-b954-b1ba3fa3779f)
