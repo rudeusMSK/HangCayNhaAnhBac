@@ -25,4 +25,5 @@ giải thuật chưa được tốt ! </br>
 chưa đúng  output đề bài yêu cầu ! </br>
 ___
 chạy thử: </br>
+
 ![image](https://github.com/rudeusMSK/HangCayNhaAnhBac/assets/160387470/145af2c1-d9fe-4085-b954-b1ba3fa3779f)
