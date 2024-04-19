@@ -13,7 +13,7 @@ namespace HangCayNhaAnhBac
     {
         static readonly int Maxsize = 100;
 
-        static string treeline = "affcacbbc"; //aabcdabc
+        static string treeline = "gjkgjgvvyjl"; //aabcdabc
 
         static void Main(string[] args)
         {
@@ -139,7 +139,6 @@ namespace HangCayNhaAnhBac
             }
             return listcate;
         }
-
         static char FindMinTree(ArrayList listcate)
         {
             List<Tuple<char, int>> cate = Catesize(listcate);
@@ -163,7 +162,6 @@ namespace HangCayNhaAnhBac
 
             return min;
         }
-
         static void CutTree(ArrayList listcate)
         {
             for (int i = 0; i < listcate.Count; i++)
@@ -192,7 +190,6 @@ namespace HangCayNhaAnhBac
                 }
             }
         }
-
         static List<Tuple<char, int>> Catesize(ArrayList list)
         {
             List<Tuple<char, int>> cateTreeSize = new List<Tuple<char, int>>();
